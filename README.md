@@ -1,2 +1,14 @@
-# instgram_bot
-Send instgram messages automatically
+# instgram自动发消息机器人
+
+
+### 逻辑
+
+1. 开启网页版instgram
+
+2. 输入帐号密码登录,休息几秒等待网页加载
+
+3. 循环tag_list里买的内容并打开相应的tag页面
+
+5. 点击第一个人,检测是否追踪过,如果没有追踪过就点击追踪然后开启一个新的页面发送准备好的消息,已经追踪过就点击next到下一个人
+
+5. 每个tag大约循环200个人然后就会打开下一个tage的页面
